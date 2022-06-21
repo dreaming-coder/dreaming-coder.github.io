@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  background-color: rgb(192, 192, 192);
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+  font-family: "Candara", "Candara", "Candara";
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 20px;
+  padding: 25px 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 21px;
+  font-weight: normal;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin: 0 0 10px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-bottom: 60px;
+}
+
+/* .info-left {
+  
+} */
+.info-right {
+  display: grid;
+  padding-top: 25px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: 40px auto;
+  align-items: center;
+}
+
+.email-icon,
+.hometown-icon,
+.github-icon,
+.homepage-icon {
+  justify-self: end;
+}
+
+.email,
+.hometown,
+.github,
+.homepage {
+  padding-left: 20px;
+  justify-self: start;
+}
+
+.content-header {
+  font-family: "Candara-Bold", "Candara-Bold", "Candara";
+  color: #000;
+  border-bottom: 1px solid #dddddd;
+}
+.content-header > h2 {
+  font-weight: 700;
+}
+
+.top {
+  cursor: pointer;
+}
