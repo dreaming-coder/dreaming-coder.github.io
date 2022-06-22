@@ -158,6 +158,7 @@ p {
 }
 .experience .location {
   position: absolute;
+  min-width: 4em;
   right: 0;
   top: 2px;
 }
