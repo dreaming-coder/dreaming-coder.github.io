@@ -1,0 +1,18 @@
+@media print {
+  .version,
+  footer {
+    display: none;
+  }
+  .container {
+    min-width: 900px;
+    margin: 0px;
+    padding: 0px 50px;
+  }
+  .info-left h1 {
+    margin-top: 0px;
+  }
+
+  .projects .item {
+    margin-right: 10px;
+  }
+}
