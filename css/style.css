@@ -26,7 +26,6 @@ body {
   padding: 25px 50px;
 }
 
-
 @media screen and (max-height: 100vh) {
   footer {
     position: absolute;
@@ -216,24 +215,24 @@ p {
   letter-spacing: 1px;
   font-family: "Maven Pro", sans-serif;
 }
-.project-title-line a{
+.project-title-line a {
   cursor: pointer;
 }
 
 .language-java {
   color: rgb(176, 114, 25);
 }
-.language-python{
+.language-python {
   color: rgb(53, 114, 165);
 }
-.language-javascript{
+.language-javascript {
   color: rgb(241, 224, 90);
 }
 .describe {
   padding: 6px 18px;
   overflow: hidden;
 }
-.star{
+.star {
   float: right;
   position: relative;
   color: rgb(234, 197, 79);
