@@ -22,10 +22,14 @@ body {
   width: 100%;
   background-color: rgb(255, 255, 255);
   max-width: 1000px;
-  min-width: 900px;
+  min-width: 1000px;
   min-height: 1000px;
   margin: 20px;
   padding: 25px 50px;
+}
+
+footer {
+  margin-top: 50px;
 }
 
 h1,
@@ -147,7 +151,6 @@ p {
 .experience h5 {
   font-weight: 700;
   font-size: 1.25rem;
-  /* font-family:"Maven Pro", sans-serif; */
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -171,11 +174,67 @@ p {
   color: #009688;
 }
 
-.fa-ul{
-  /* font-family: "Maven Pro", sans-serif; */
+.fa-ul {
   margin-left: 1em;
   margin-top: 1em;
 }
 .fa-ul > li {
   margin: 0.5em;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.projects .item {
+  display: grid;
+  grid-template-rows: 1.5em auto 1.5em;
+  align-items: space-around;
+  width: 48%;
+  margin: 5px;
+  margin-right: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #d0d7de;
+}
+
+.project-title-line,
+.language {
+  margin-left: 4px;
+  padding: 2px;
+}
+.project-title {
+  margin-left: 4px;
+  font-weight: 700;
+  color: #009688;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-family: "Maven Pro", sans-serif;
+}
+.project-title-line a{
+  cursor: pointer;
+}
+
+.language-java {
+  color: rgb(176, 114, 25);
+}
+.language-python{
+  color: rgb(53, 114, 165);
+}
+.language-javascript{
+  color: rgb(241, 224, 90);
+}
+.describe {
+  padding: 6px 18px;
+  overflow: hidden;
+}
+.star{
+  float: right;
+  position: relative;
+  color: rgb(234, 197, 79);
 }
