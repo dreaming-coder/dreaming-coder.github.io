@@ -29,7 +29,9 @@ body {
 }
 
 footer {
-  margin-top: 50px;
+  position: absolute;
+  left: 50px;
+  bottom: 25px;
 }
 
 h1,
@@ -66,7 +68,7 @@ p {
 .info {
   display: grid;
   grid-template-columns: 60% 40%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 /* .info-left {
