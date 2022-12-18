@@ -1,0 +1,12 @@
+{
+  "name": "Nightwish",
+  "version": "1.0.0",
+  "description": "just a blog",
+  "main": "index.js",
+  "author": "ice",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.32",
+    "vue": "^3.2.45"
+  }
+}
