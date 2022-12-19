@@ -12,7 +12,7 @@ export default {
         outline: [2, 3],
         outlineTitle: '目 录',
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/dreaming-coder' }
+            {icon: 'github', link: 'https://github.com/dreaming-coder'}
         ],
         docFooter: {
             prev: '上一页',
@@ -27,33 +27,41 @@ export default {
                 '   </div>',
             copyright: 'Copyright © 2022-present ice'
         },
-        nav: [
-            {text: 'bugStack', link: '/'},
+        nav: nav(),
+        sidebar: sidebar()
+    }
+}
+
+function nav() {
+    return [
+        {text: 'bugStack', link: '/md/bugStack/java/common'},
+        {
+            text: 'Linux',
+            items: [
+                {text: 'Item A', link: '/'},
+                {text: 'Item B', link: '/'},
+                {text: 'Item C', link: '/'}
+            ]
+        }
+    ];
+}
+
+function sidebar() {
+    return {
+        '/md/bugStack/': [
             {
-                text: 'Linux',
-                items: [
-                    {text: 'Item A', link: '/'},
-                    {text: 'Item B', link: '/'},
-                    {text: 'Item C', link: '/'}
-                ]
-            },
-        ],
-        sidebar: [
-            {
-                text: 'Section Title A',
+                text: 'Java',
                 collapsible: true,
                 items: [
-                    {text: 'Item A', link: '/item-a'},
-                    {text: 'Item B', link: '/item-b'},
-                ]
-            },
-            {
-                text: 'Section Title B',
-                collapsible: true,
-                collapsed: true,
-                items: [
-                    {text: 'Item C', link: '/item-c'},
-                    {text: 'Item D', link: '/item-d'},
+                    {
+                        text: 'Common Bugs',
+                        link: '/md/bugStack/java/common'
+                    },
+                    {
+                        text: 'SpringBoot',
+                        link: '/md/bugStack/java/springboot'
+                    }
+
                 ]
             }
         ]
