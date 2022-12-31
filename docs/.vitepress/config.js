@@ -34,7 +34,19 @@ export default {
 
 function nav() {
     return [
-        {text: 'bugStack', link: '/md/bugStack/java/common'},
+        {
+            text: 'Vue.js',
+            link: '/md/vue/guide'
+        },
+        {
+            text: '数据库',
+            items: [
+                {
+                    text: 'Oracle',
+                    link: '/md/db/oracle/type'
+                },
+            ]
+        },
         {
             text: 'Linux',
             items: [
@@ -48,20 +60,31 @@ function nav() {
 
 function sidebar() {
     return {
-        '/md/bugStack/': [
+        '/md/vue/': [
             {
-                text: 'Java',
+                text: '基础',
                 collapsible: true,
                 items: [
                     {
-                        text: 'Common Bugs',
-                        link: '/md/bugStack/java/common'
+                        text: 'Vue 3 简介',
+                        link: '/md/vue/guide'
+                    }
+                ]
+            }
+        ],
+        '/md/db/oracle/': [
+            {
+                text: 'Oracle 基础',
+                collapsible: true,
+                items: [
+                    {
+                        text: 'Oracle 基本类型',
+                        link: '/md/db/oracle/type'
                     },
                     {
-                        text: 'SpringBoot',
-                        link: '/md/bugStack/java/springboot'
-                    }
-
+                        text: 'Oracle 运算符',
+                        link: '/md/db/oracle/operator'
+                    },
                 ]
             }
         ]
