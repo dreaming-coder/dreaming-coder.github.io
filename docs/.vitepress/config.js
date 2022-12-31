@@ -68,6 +68,10 @@ function sidebar() {
                     {
                         text: 'Vue 3 简介',
                         link: '/md/vue/guide'
+                    },
+                    {
+                        text: '模板语法',
+                        link: '/md/vue/template-syntax'
                     }
                 ]
             }
