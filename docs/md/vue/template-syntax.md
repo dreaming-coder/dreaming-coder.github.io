@@ -4,7 +4,7 @@ outline: 2
 
 # 模板语法
 
-## 1. 文本插值
+## 文本插值
 
 最基本的数据绑定形式是文本插值，它使用的是“Mustache”语法 (即双大括号)：
 
@@ -14,7 +14,7 @@ outline: 2
 
 双大括号标签会被替换为相应组件实例中 `msg` 属性的值。同时每次 `msg` 属性更改时它也会同步更新。
 
-## 2. Attribute 绑定
+## Attribute 绑定
 
 双大括号不能在 HTML attributes 中使用。想要响应式地绑定一个 attribute，应该使用 `v-bind` 指令：
 
@@ -24,7 +24,7 @@ outline: 2
 
 `v-bind` 指令指示 Vue 将元素的 `id` attribute 与组件的 `dynamicId` 属性保持一致。如果绑定的值是 `null` 或者 `undefined`，那么该 attribute 将会从渲染的元素上移除。
 
-### 2.1 简写
+### 简写
 
 因为 `v-bind` 非常常用，我们提供了特定的简写语法：
 
@@ -34,7 +34,7 @@ outline: 2
 
 开头为 `:` 的 attribute 可能和一般的 HTML attribute 看起来不太一样，但它的确是合法的 attribute 名称字符，并且所有支持 Vue 的浏览器都能正确解析它。此外，他们不会出现在最终渲染的 DOM 中。简写语法是可选的，但相信在你了解了它更多的用处后，你应该会更喜欢它。
 
-### 2.2 布尔型 Attribute
+### 布尔型 Attribute
 
 布尔型 attribute 依据 true / false 值来决定 attribute 是否应该存在于该元素上。`disabled` 就是最常见的例子之一。
 
@@ -46,7 +46,7 @@ outline: 2
 
 当 `isButtonDisabled` 为[真值](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)或一个空字符串 (即 `<button disabled="">`) 时，元素会包含这个 `disabled` attribute。而当其为其他[假值](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)时 attribute 将被忽略。
 
-### 2.3 动态绑定多个值
+### 动态绑定多个值
 
 如果你有像这样的一个包含多个 attribute 的 JavaScript 对象：
 
@@ -67,7 +67,7 @@ data() {
 <div v-bind="objectOfAttrs"></div>
 ```
 
-## 3. 使用 JavaScript 表达式
+## 使用 JavaScript 表达式
 
 至此，我们仅在模板中绑定了一些简单的属性名。但是 Vue 实际上在所有的数据绑定中都支持完整的 JavaScript 表达式：
 
@@ -88,7 +88,7 @@ data() {
 - 在文本插值中 (双大括号)
 - 在任何 Vue 指令 (以 `v-` 开头的特殊 attribute) attribute 的值中
 
-### 3.1 仅支持表达式
+### 仅支持表达式
 
 每个绑定仅支持**单一表达式**，也就是一段能够被求值的 JavaScript 代码。一个简单的判断方法是是否可以合法地写在 `return` 后面。
 
@@ -102,7 +102,7 @@ data() {
 {{ if (ok) { return message } }}
 ```
 
-### 3.2 调用函数
+### 调用函数
 
 可以在绑定的表达式中使用一个组件暴露的方法：
 
@@ -112,7 +112,7 @@ data() {
 </span>
 ```
 
-## 4. 指令 Directives
+## 指令 Directives
 
 指令是带有 `v-` 前缀的特殊 attribute。
 
@@ -124,7 +124,7 @@ data() {
 
 这里，`v-if` 指令会基于表达式 `seen` 的值的真假来移除/插入该 `<p>` 元素。
 
-### 4.1 参数 Arguments
+### 参数 Arguments
 
 某些指令会需要一个“参数”，在指令名后通过一个冒号隔开做标识。例如用 `v-bind` 指令来响应式地更新一个 HTML attribute：
 
@@ -148,7 +148,7 @@ data() {
 
 这里的参数是要监听的事件名称：`click`。`v-on` 有一个相应的缩写，即 `@` 字符。我们之后也会讨论关于事件处理的更多细节。
 
-### 4.2 动态参数
+### 动态参数
 
 同样在指令参数上也可以使用一个 JavaScript 表达式，需要包含在一对方括号内：
 
@@ -191,7 +191,7 @@ data() {
 
 如果你需要传入一个复杂的动态参数，我们推荐使用计算属性替换复杂的表达式，也是 Vue 最基础的概念之一。
 
-### 4.3 修饰符 Modifiers
+### 修饰符 Modifiers
 
 修饰符是以点开头的特殊后缀，表明指令需要以一些特殊的方式被绑定。例如 `.prevent` 修饰符会告知 `v-on` 指令对触发的事件调用 `event.preventDefault()`：
 
