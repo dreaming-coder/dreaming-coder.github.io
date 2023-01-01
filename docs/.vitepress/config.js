@@ -80,6 +80,10 @@ function sidebar() {
                     {
                         text: '条件渲染',
                         link: '/md/vue/conditional'
+                    },
+                    {
+                        text: '列表渲染',
+                        link: '/md/vue/list'
                     }
                 ]
             }
