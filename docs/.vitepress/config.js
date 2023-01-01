@@ -90,6 +90,14 @@ function sidebar() {
                     {
                         text: '事件处理',
                         link: '/md/vue/event-handling'
+                    },
+                    {
+                        text: '表单输入绑定',
+                        link: '/md/vue/forms'
+                    },
+                    {
+                        text: '侦听器',
+                        link: '/md/vue/watchers'
                     }
                 ]
             }
