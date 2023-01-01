@@ -47,7 +47,7 @@ const count = ref(0)
 
 组件系统是 Vue 的另一个重要概念，因为它是一种抽象，允许我们使用小型、独立和通常可复用的组件构建大型应用。仔细想想，几乎任意类型的应用界面都可以抽象为一个组件树：
 
-![](/imgs/vue/guide/components.png)
+![](/imgs/vue/components.png)
 
 顾名思义，Vue 的组件会将其逻辑 (JavaScript)，模板 (HTML) 和样式 (CSS) 封装在同一个文件里。下面我们将用单文件组件的格式重写上面的计数器示例：
 

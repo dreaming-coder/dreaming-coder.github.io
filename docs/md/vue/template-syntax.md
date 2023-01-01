@@ -203,4 +203,4 @@ data() {
 
 最后，在这里你可以直观地看到完整的指令语法：
 
-![](/imgs/vue/guide/directive.png)
+![](/imgs/vue/directive.png)
