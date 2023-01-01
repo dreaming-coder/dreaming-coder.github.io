@@ -102,6 +102,10 @@ function sidebar() {
                     {
                         text: '模板引用',
                         link: '/md/vue/template-refs'
+                    },
+                    {
+                        text: '生命周期',
+                        link: '/md/vue/lifecycle'
                     }
                 ]
             }
