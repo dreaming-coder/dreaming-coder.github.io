@@ -86,6 +86,10 @@ function sidebar() {
                     {
                         text: '列表渲染',
                         link: '/md/vue/list'
+                    },
+                    {
+                        text: '事件处理',
+                        link: '/md/vue/event-handling'
                     }
                 ]
             }
