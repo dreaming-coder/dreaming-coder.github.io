@@ -76,6 +76,10 @@ function sidebar() {
                     {
                         text: '计算属性',
                         link: '/md/vue/computed'
+                    },
+                    {
+                        text: '条件渲染',
+                        link: '/md/vue/conditional'
                     }
                 ]
             }
