@@ -72,6 +72,10 @@ function sidebar() {
                     {
                         text: '模板语法',
                         link: '/md/vue/template-syntax'
+                    },
+                    {
+                        text: '计算属性',
+                        link: '/md/vue/computed'
                     }
                 ]
             }
