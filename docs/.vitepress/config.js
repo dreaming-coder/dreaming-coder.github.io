@@ -98,6 +98,10 @@ function sidebar() {
                     {
                         text: '侦听器',
                         link: '/md/vue/watchers'
+                    },
+                    {
+                        text: '模板引用',
+                        link: '/md/vue/template-refs'
                     }
                 ]
             }
