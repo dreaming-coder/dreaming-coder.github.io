@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 export default {
     title: "ice's blog",
     description: '我与春风皆过客，你携秋水揽星河',
@@ -21,8 +23,8 @@ export default {
         footer: {
             message: '<a href="http://beian.miit.gov.cn" target="_blank">苏ICP备2022010836号-1</a><br/><div>\n' +
                 '      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=32011202000718" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">\n' +
-                '         <img src="/beian.png" style="float:left;"/>\n' +
-                '         <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">苏公网安备 32011202000718号</p>\n' +
+                '         <img src="/beian.png" style="float:left;" alt="备案"/>\n' +
+                '         <p style="float:left;height:20px;line-height:20px;margin: 0 0 0 5px; color:#939393;">苏公网安备 32011202000718号</p>\n' +
                 '      </a>\n' +
                 '   </div>',
             copyright: 'Copyright © 2022-present ice'
