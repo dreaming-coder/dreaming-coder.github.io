@@ -108,6 +108,16 @@ function sidebar() {
                         link: '/md/vue/lifecycle'
                     }
                 ]
+            },
+            {
+                text: '组件',
+                collapsible: true,
+                items: [
+                    {
+                        text: '组件基础',
+                        link: '/md/vue/component-basics'
+                    }
+                ]
             }
         ],
         '/md/db/oracle/': [
