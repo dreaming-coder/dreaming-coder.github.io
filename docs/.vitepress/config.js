@@ -8,6 +8,7 @@ export default {
     markdown: {
         lineNumbers: true
     },
+    outDir: '../dist',
     themeConfig: {
         siteTitle: "ice's blog",
         logo: '/icon.png',
