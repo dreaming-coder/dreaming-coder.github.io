@@ -2,4 +2,3 @@ node_modules/
 desktop.ini
 cache/
 .idea/
-/docs/.vitepress/dist/
