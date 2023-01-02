@@ -128,6 +128,10 @@ function sidebar() {
                     {
                         text: '组件事件',
                         link: '/md/vue/events'
+                    },
+                    {
+                        text: '透传 Attributes',
+                        link: '/md/vue/attrs'
                     }
                 ]
             }
