@@ -132,6 +132,10 @@ function sidebar() {
                     {
                         text: '透传 Attributes',
                         link: '/md/vue/attrs'
+                    },
+                    {
+                        text: '插槽',
+                        link: '/md/vue/slots'
                     }
                 ]
             }
