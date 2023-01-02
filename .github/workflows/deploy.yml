@@ -24,7 +24,7 @@ jobs:
       - name: Install and Build 
         run: |
           npm install
-          npm docs:build
+          npm run docs:build
         env:
           NODE_OPTIONS: '--max_old_space_size=4096'
       - name: Deploy 
