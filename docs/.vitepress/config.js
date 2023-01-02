@@ -116,10 +116,15 @@ function sidebar() {
                     {
                         text: '组件基础',
                         link: '/md/vue/component-basics'
-                    },{
+                    },
+                    {
                         text: '组件注册',
                         link: '/md/vue/registration'
                     },
+                    {
+                        text: 'Props',
+                        link: '/md/vue/props'
+                    }
                 ]
             }
         ],
