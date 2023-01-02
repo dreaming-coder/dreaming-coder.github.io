@@ -67,9 +67,9 @@ function nav() {
             ]
         },
         {
-            text: 'Linux',
+            text: '工具|部署',
             items: [
-                {text: 'Item A', link: '/'},
+                {text: 'Linux', link: '/'},
                 {text: 'Item B', link: '/'},
                 {text: 'Item C', link: '/'}
             ]
