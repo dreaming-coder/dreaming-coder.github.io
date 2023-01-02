@@ -124,6 +124,10 @@ function sidebar() {
                     {
                         text: 'Props',
                         link: '/md/vue/props'
+                    },
+                    {
+                        text: '组件事件',
+                        link: '/md/vue/events'
                     }
                 ]
             }
