@@ -37,8 +37,25 @@ export default {
 function nav() {
     return [
         {
-            text: 'Vue.js',
-            link: '/md/vue/guide'
+            text: '前端',
+            items: [
+                {
+                    text: 'HTML',
+                    link: '/'
+                },
+                {
+                    text: 'CSS',
+                    link: '/'
+                },
+                {
+                    text: 'JavaScript',
+                    link: '/'
+                },
+                {
+                    text: 'Vue.js',
+                    link: '/md/vue/guide'
+                },
+            ]
         },
         {
             text: '数据库',
