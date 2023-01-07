@@ -13,7 +13,7 @@ hero:
       link: /
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/dreaming-coder
 features:
   - title: 沉淀
     details: 待到秋来九月八，我花开后百花杀
