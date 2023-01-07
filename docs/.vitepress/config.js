@@ -6,7 +6,7 @@ export default {
     lastUpdated: true,
     cleanUrls: 'without-subfolders',
     markdown: {
-        lineNumbers: true
+        // lineNumbers: true
     },
     outDir: '../dist',
     themeConfig: {
@@ -164,12 +164,30 @@ function sidebar() {
                 collapsible: true,
                 items: [
                     {
-                        text: 'Oracle 基本类型',
+                        text: '基本类型',
                         link: '/md/db/oracle/type'
                     },
                     {
-                        text: 'Oracle 运算符',
+                        text: '运算符',
                         link: '/md/db/oracle/operator'
+                    },
+                    {
+                        text: '函数',
+                        link: '/md/db/oracle/function'
+                    },
+                    {
+                        text: 'SQL 基础',
+                        link: '/md/db/oracle/sql'
+                    },
+                ]
+            },
+            {
+                text: 'Oracle 进阶',
+                collapsible: true,
+                items: [
+                    {
+                        text: '',
+                        link: '/md/db/oracle/'
                     },
                 ]
             }
