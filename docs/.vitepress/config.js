@@ -179,18 +179,22 @@ function sidebar() {
                         text: 'SQL 基础',
                         link: '/md/db/oracle/sql'
                     },
-                ]
-            },
-            {
-                text: 'Oracle 进阶',
-                collapsible: true,
-                items: [
                     {
-                        text: '',
-                        link: '/md/db/oracle/'
+                        text: '高级部分',
+                        link: '/md/db/oracle/others'
                     },
                 ]
-            }
+            },
+            // {
+            //     text: 'Oracle 进阶',
+            //     collapsible: true,
+            //     items: [
+            //         {
+            //             text: '',
+            //             link: '/md/db/oracle/'
+            //         },
+            //     ]
+            // }
         ]
     }
 }
