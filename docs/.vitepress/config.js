@@ -36,7 +36,7 @@ function nav() {
             items: [
                 {
                     text: 'HTML',
-                    link: '/'
+                    link: '/md/web/html/html-structure'
                 },
                 {
                     text: 'CSS',
@@ -74,6 +74,49 @@ function nav() {
 
 function sidebar() {
     return {
+        '/md/web/html/':[
+            {
+                text: 'HTML',
+                items: [
+                    {
+                        text: '文档结构',
+                        link: '/md/web/html/html-structure'
+                    },
+                    {
+                        text: '文本标签',
+                        link: '/md/web/html/html-text'
+                    },
+                    {
+                        text: '文档分节',
+                        link: '/md/web/html/html-separation'
+                    },
+                    {
+                        text: '内容组织',
+                        link: '/md/web/html/html-organization'
+                    },
+                    {
+                        text: '表格',
+                        link: '/md/web/html/html-table'
+                    },
+                    {
+                        text: '基本表单元素',
+                        link: '/md/web/html/html-form-1'
+                    },
+                    {
+                        text: '定制input元素',
+                        link: '/md/web/html/html-form-2'
+                    },
+                    {
+                        text: '其他表单内容',
+                        link: '/md/web/html/html-form-3'
+                    },
+                    {
+                        text: '嵌入内容',
+                        link: '/md/web/html/html-embed'
+                    }
+                ]
+            }
+        ],
         '/md/vue/': [
             {
                 text: '基础',

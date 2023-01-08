@@ -1,0 +1,9 @@
+/* ------- 修改引用样式 ---------*/
+.vp-doc blockquote {
+    border-left: .5rem solid #42b983;
+}
+
+.vp-doc blockquote p {
+    margin: 0;
+}
+/* --------------------------- */
