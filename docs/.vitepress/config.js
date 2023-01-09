@@ -40,7 +40,7 @@ function nav() {
                 },
                 {
                     text: 'CSS',
-                    link: '/'
+                    link: '/md/web/css/css-foundation'
                 },
                 {
                     text: 'JavaScript',
@@ -113,6 +113,17 @@ function sidebar() {
                     {
                         text: '嵌入内容',
                         link: '/md/web/html/html-embed'
+                    }
+                ]
+            }
+        ],
+        '/md/web/css/':[
+            {
+                text: 'CSS',
+                items: [
+                    {
+                        text: '选择器',
+                        link: '/md/web/css/css-foundation'
                     }
                 ]
             }
