@@ -6,6 +6,10 @@
     transition: background-color 0.5s ease;
     min-height: 100px;
 }
+.ice-container {
+    display: flex;
+    justify-content: center;
+}
 
 .dark .demo {
     background-color: rgba(65, 64, 64, 0.65);

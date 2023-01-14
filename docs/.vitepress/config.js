@@ -74,7 +74,7 @@ function nav() {
 
 function sidebar() {
     return {
-        '/md/web/html/':[
+        '/md/web/html/': [
             {
                 text: 'HTML',
                 items: [
@@ -117,14 +117,18 @@ function sidebar() {
                 ]
             }
         ],
-        '/md/web/css/':[
+        '/md/web/css/': [
             {
                 text: 'CSS',
                 items: [
                     {
                         text: '选择器',
                         link: '/md/web/css/css-foundation'
-                    }
+                    },
+                    {
+                        text: '盒子模型',
+                        link: '/md/web/css/css-box'
+                    },
                 ]
             }
         ],

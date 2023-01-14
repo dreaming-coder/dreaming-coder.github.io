@@ -15,5 +15,8 @@
     "stylus": "^0.59.0",
     "vitepress": "^1.0.0-alpha.32",
     "vue": "^3.2.45"
+  },
+  "dependencies": {
+    "markdown-it-container": "^3.0.0"
   }
 }
