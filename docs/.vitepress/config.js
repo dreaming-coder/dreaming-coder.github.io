@@ -129,6 +129,18 @@ function sidebar() {
                         text: '盒子模型',
                         link: '/md/web/css/css-box'
                     },
+                    {
+                        text: '文本设置',
+                        link: '/md/web/css/css-text'
+                    },
+                    {
+                        text: '过渡、动画和变换',
+                        link: '/md/web/css/css-dynamic'
+                    },
+                    {
+                        text: '其他常用特性',
+                        link: '/md/web/css/css-others'
+                    },
                 ]
             }
         ],
