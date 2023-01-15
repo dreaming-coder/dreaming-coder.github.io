@@ -141,6 +141,14 @@ function sidebar() {
                         text: '其他常用特性',
                         link: '/md/web/css/css-others'
                     },
+                    {
+                        text: 'Flex 布局',
+                        link: '/md/web/css/css-flex'
+                    },
+                    {
+                        text: 'Grid 布局',
+                        link: '/md/web/css/css-grid'
+                    },
                 ]
             }
         ],
