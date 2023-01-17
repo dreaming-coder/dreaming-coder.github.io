@@ -44,7 +44,7 @@ function nav() {
                 },
                 {
                     text: 'JavaScript',
-                    link: '/'
+                    link: '/md/web/js/js-foundation'
                 },
                 {
                     text: 'Vue.js',
@@ -148,6 +148,30 @@ function sidebar() {
                     {
                         text: 'Grid 布局',
                         link: '/md/web/css/css-grid'
+                    },
+                ]
+            }
+        ],
+        '/md/web/js/' : [
+            {
+                text: 'JavaScript',
+                collapsible: true,
+                items: [
+                    {
+                        text: '基本概念',
+                        link: '/md/web/js/js-foundation'
+                    },
+                    {
+                        text: '常用引用对象',
+                        link: '/md/web/js/js-reference'
+                    },
+                    {
+                        text: '面向对象',
+                        link: '/md/web/js/js-oop'
+                    },
+                    {
+                        text: 'DOM、BOM与事件',
+                        link: '/md/web/js/js-core'
                     },
                 ]
             }
