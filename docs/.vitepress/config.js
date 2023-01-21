@@ -162,8 +162,28 @@ function sidebar() {
                         link: '/md/web/js/js-foundation'
                     },
                     {
-                        text: '常用引用对象',
-                        link: '/md/web/js/js-reference'
+                        text: '数组',
+                        link: '/md/web/js/js-array'
+                    },
+                    {
+                        text: '字符串',
+                        link: '/md/web/js/js-string'
+                    },
+                    {
+                        text: '日期时间',
+                        link: '/md/web/js/js-date'
+                    },
+                    {
+                        text: '运算符扩展',
+                        link: '/md/web/js/js-operator'
+                    },
+                    {
+                        text: '变量的解构赋值',
+                        link: '/md/web/js/js-destructuring'
+                    },
+                    {
+                        text: '函数',
+                        link: '/md/web/js/js-function'
                     },
                     {
                         text: '面向对象',
@@ -172,6 +192,18 @@ function sidebar() {
                     {
                         text: 'DOM、BOM与事件',
                         link: '/md/web/js/js-core'
+                    },
+                    {
+                        text: '拖放',
+                        link: '/md/web/js/js-drag'
+                    },
+                    {
+                        text: 'Ajax',
+                        link: '/md/web/js/js-ajax'
+                    },
+                    {
+                        text: 'Promise',
+                        link: '/md/web/js/js-promise'
                     },
                 ]
             }
