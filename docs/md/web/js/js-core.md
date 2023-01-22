@@ -424,7 +424,7 @@ DOM 事件流分为 3 个阶段：
 
 ```javascript
 div.onclick = function(event){
-  // 这个event 就是传进来的事件对象，event 可以是其他标识符，这里只是接收事件对象的形参  
+  // 默认第一个参数就是传进来的事件对象  
 };
 ```
 
