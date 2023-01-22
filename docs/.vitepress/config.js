@@ -205,6 +205,32 @@ function sidebar() {
                         text: 'Promise',
                         link: '/md/web/js/js-promise'
                     },
+                    {
+                        text: 'Generator',
+                        link: '/md/web/js/js-generator'
+                    },
+                    {
+                        text: 'Async',
+                        link: '/md/web/js/js-async'
+                    },
+                    {
+                        text: 'Module',
+                        link: '/md/web/js/js-module'
+                    },
+                ]
+            },
+            {
+                text: 'Reference',
+                collapsible: true,
+                items: [
+                    {
+                        text: 'ECMAScript 6',
+                        link: 'https://es6.ruanyifeng.com'
+                    },
+                    {
+                        text: 'Axios',
+                        link: 'https://axios-http.com/zh/docs/intro'
+                    },
                 ]
             }
         ],
