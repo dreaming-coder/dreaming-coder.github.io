@@ -62,11 +62,9 @@ function nav() {
             ]
         },
         {
-            text: '工具|部署',
+            text: '计算机基础',
             items: [
-                {text: 'Git', link: '/'},
-                {text: 'Linux', link: '/'},
-                {text: 'Item C', link: '/'}
+                {text: 'Linux', link: '/md/linux/linux-start'},
             ]
         }
     ];
@@ -74,9 +72,26 @@ function nav() {
 
 function sidebar() {
     return {
+        '/md/linux/': [
+            {
+                text: 'Linux',
+                collapsible: true,
+                items: [
+                    {
+                        text: 'Linux 基础',
+                        link: '/md/linux/linux-start'
+                    },
+                    {
+                        text: 'Vim',
+                        link: '/md/linux/vim'
+                    },
+                ]
+            }
+        ],
         '/md/web/html/': [
             {
                 text: 'HTML',
+                collapsible: true,
                 items: [
                     {
                         text: '文档结构',
@@ -120,6 +135,7 @@ function sidebar() {
         '/md/web/css/': [
             {
                 text: 'CSS',
+                collapsible: true,
                 items: [
                     {
                         text: '选择器',
@@ -314,7 +330,7 @@ function sidebar() {
         ],
         '/md/db/oracle/': [
             {
-                text: 'Oracle 基础',
+                text: 'Oracle',
                 collapsible: true,
                 items: [
                     {

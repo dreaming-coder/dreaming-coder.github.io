@@ -1,1 +1,0 @@
-import{_ as o,o as s,c as t,p as a,k as _,b as c}from"../app.92d8dc75.js";const d={name:"HorizonDemo"},n=e=>(a("data-v-0d5fa72d"),e=e(),_(),e),p={class:"demo"},r=n(()=>c("div",{class:"example"},null,-1)),i=[r];function l(e,m,f,u,h,v){return s(),t("div",p,i)}const I=o(d,[["render",l],["__scopeId","data-v-0d5fa72d"]]);export{I as default};
