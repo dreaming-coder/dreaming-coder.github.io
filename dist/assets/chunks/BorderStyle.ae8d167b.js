@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,p as c,k as _,b as d}from"../app.f6787dd1.js";const a={name:"BorderStyle"},r=e=>(c("data-v-c9288e99"),e=e(),_(),e),n={class:"demo"},p=r(()=>d("div",{class:"border-demo"},null,-1)),l=[p];function i(e,u,m,f,h,v){return s(),t("div",n,l)}const S=o(a,[["render",i],["__scopeId","data-v-c9288e99"]]);export{S as default};

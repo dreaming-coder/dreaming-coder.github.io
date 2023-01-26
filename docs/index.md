@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /
+      link: /md/golang/go-env
     - theme: alt
       text: View on GitHub
       link: https://github.com/dreaming-coder

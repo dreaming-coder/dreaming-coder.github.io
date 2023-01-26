@@ -32,6 +32,15 @@ export default {
 function nav() {
     return [
         {
+            text: 'Language',
+            items: [
+                {
+                    text: 'GoLang',
+                    link: '/md/golang/go-env'
+                }
+            ]
+        },
+        {
             text: '前端',
             items: [
                 {
@@ -64,7 +73,10 @@ function nav() {
         {
             text: '计算机基础',
             items: [
-                {text: 'Linux', link: '/md/linux/linux-start'},
+                {
+                    text: 'Linux',
+                    link: '/md/linux/linux-start'
+                },
             ]
         }
     ];
@@ -72,6 +84,18 @@ function nav() {
 
 function sidebar() {
     return {
+        '/md/golang/': [
+            {
+                text: 'GoLang',
+                collapsible: true,
+                items: [
+                    {
+                        text: '开发环境安装',
+                        link: '/md/golang/go-env'
+                    }
+                ]
+            }
+        ],
         '/md/linux/': [
             {
                 text: 'Linux',
@@ -168,7 +192,7 @@ function sidebar() {
                 ]
             }
         ],
-        '/md/web/js/' : [
+        '/md/web/js/': [
             {
                 text: 'JavaScript',
                 collapsible: true,

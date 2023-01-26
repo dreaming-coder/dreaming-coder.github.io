@@ -1,1 +1,0 @@
-import{_ as s,o as t,c,p as _,k as d,b as o}from"../app.31a1046c.js";const a={name:"PerspectiveDemo"},p=e=>(_("data-v-b6263443"),e=e(),d(),e),i={class:"demo"},n=p(()=>o("div",{id:"div1"},[o("div",{id:"div2"},"HELLO")],-1)),r=[n];function v(e,m,l,u,f,h){return t(),c("div",i,r)}const x=s(a,[["render",v],["__scopeId","data-v-b6263443"]]);export{x as default};
