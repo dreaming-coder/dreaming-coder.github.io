@@ -105,6 +105,10 @@ function sidebar() {
                         text: '基本语法',
                         link: '/md/golang/go-syntax'
                     },
+                    {
+                        text: '控制结构',
+                        link: '/md/golang/go-control'
+                    },
                 ]
             }
         ],
