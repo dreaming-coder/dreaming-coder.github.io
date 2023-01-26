@@ -37,7 +37,7 @@ function nav() {
                 {
                     text: 'GoLang',
                     link: '/md/golang/go-env'
-                }
+                },
             ]
         },
         {
@@ -92,7 +92,19 @@ function sidebar() {
                     {
                         text: '开发环境安装',
                         link: '/md/golang/go-env'
-                    }
+                    },
+                    {
+                        text: '开发工具',
+                        link: '/md/golang/go-ide'
+                    },
+                    {
+                        text: 'Hello World',
+                        link: '/md/golang/go-helloworld'
+                    },
+                    {
+                        text: '基本语法',
+                        link: '/md/golang/go-syntax'
+                    },
                 ]
             }
         ],
