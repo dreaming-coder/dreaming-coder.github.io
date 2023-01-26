@@ -1,1 +1,0 @@
-import{_ as o,o as s,c as t,p as _,k as a,b as c}from"../app.f6787dd1.js";const n={name:"OriginDemo"},d=e=>(_("data-v-8b5aeb8f"),e=e(),a(),e),i={class:"demo"},p=d(()=>c("div",{class:"origin-demo"},null,-1)),r=[p];function l(e,m,f,u,b,h){return s(),t("div",i,r)}const g=o(n,[["render",l],["__scopeId","data-v-8b5aeb8f"]]);export{g as default};
