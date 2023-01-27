@@ -109,6 +109,10 @@ function sidebar() {
                         text: '控制结构',
                         link: '/md/golang/go-control'
                     },
+                    {
+                        text: '函数',
+                        link: '/md/golang/go-function'
+                    },
                 ]
             }
         ],
