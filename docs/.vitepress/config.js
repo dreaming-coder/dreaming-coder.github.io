@@ -113,8 +113,70 @@ function sidebar() {
                         text: '函数',
                         link: '/md/golang/go-function'
                     },
+                    {
+                        text: '数组',
+                        link: '/md/golang/go-array'
+                    },
+                    {
+                        text: 'Slice',
+                        link: '/md/golang/go-slice'
+                    },
+                    {
+                        text: 'Map',
+                        link: '/md/golang/go-map'
+                    },
+                    {
+                        text: '代码结构化',
+                        link: '/md/golang/go-structure'
+                    },
+                    {
+                        text: '结构体',
+                        link: '/md/golang/go-struct'
+                    },
+                    {
+                        text: '方法',
+                        link: '/md/golang/go-method'
+                    },
+                    {
+                        text: '接口',
+                        link: '/md/golang/go-interface'
+                    },
+                    {
+                        text: '面向对象',
+                        link: '/md/golang/go-oop'
+                    },
+                    {
+                        text: '协程与通道',
+                        link: '/md/golang/go-routine-channel'
+                    },
+                    {
+                        text: '错误处理',
+                        link: '/md/golang/go-error'
+                    },
+                    {
+                        text: '测试',
+                        link: '/md/golang/go-test'
+                    },
+                    {
+                        text: '反射',
+                        link: '/md/golang/go-reflect'
+                    },
                 ]
-            }
+            },
+            {
+                text: '标准库',
+                collapsible: true,
+                items: [
+
+                ]
+            },
+            {
+                text: '数据结构与算法',
+                collapsible: true,
+                items: [
+
+                ]
+            },
         ],
         '/md/linux/': [
             {

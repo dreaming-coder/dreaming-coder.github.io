@@ -1,4 +1,4 @@
-# GoLang 之 Hello World
+# GoLang - Hello World
 
 ```go
 package main
