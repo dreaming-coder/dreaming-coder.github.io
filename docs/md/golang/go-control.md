@@ -309,14 +309,14 @@ for pos, char := range str {
 
 还有其他一些用法，等说道相应的内容再举例。
 
-## break和continue
+## break 和 continue
 
 - **break**：
   一般而言，直接结束最近的一层循环。但在 `switch` 或 `select` 语句中，`break` 语句的作用结果是跳过整个代码块，执行后续的代码。
 - **continue**：
   结束本次迭代，直接开始下一次迭代，但不是无条件执行下一次循环，执行之前依旧需要满足循环的判断条件。 关键字 `continue` 只能被用于 `for` 循环中。
 
-## 标签与goto
+## 标签与 goto
 
 `for`、`switch` 或 `select` 语句都可以配合标签（`label`）形式的标识符使用，即某一行第一个以冒号（`:`）结尾的单词（gofmt 会将后续代码自动移至下一行）
 
