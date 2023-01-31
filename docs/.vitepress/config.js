@@ -32,13 +32,8 @@ export default {
 function nav() {
     return [
         {
-            text: 'Language',
-            items: [
-                {
-                    text: 'GoLang',
-                    link: '/md/golang/go-env'
-                },
-            ]
+            text: 'GoLang',
+            link: '/md/golang/go-env'
         },
         {
             text: '前端',
@@ -71,7 +66,7 @@ function nav() {
             ]
         },
         {
-            text: '计算机基础',
+            text: 'DevOps',
             items: [
                 {
                     text: 'Linux',
