@@ -183,8 +183,16 @@ function sidebar() {
                         link: '/md/linux/linux-start'
                     },
                     {
+                        text: '防火墙与端口',
+                        link: '/md/linux/firewall'
+                    },
+                    {
                         text: 'Vim',
                         link: '/md/linux/vim'
+                    },
+                    {
+                        text: 'Shell',
+                        link: '/md/linux/shell'
                     },
                 ]
             }
