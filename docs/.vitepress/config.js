@@ -194,6 +194,10 @@ function sidebar() {
                         text: 'Shell',
                         link: '/md/linux/shell'
                     },
+                    {
+                        text: 'awk',
+                        link: '/md/linux/awk'
+                    },
                 ]
             }
         ],

@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as s,p as a,k as _,b as c}from"../app.bc36f6f4.js";const d={name:"RotateDemo"},n=e=>(a("data-v-08a80161"),e=e(),_(),e),p={class:"demo"},r=n(()=>c("div",{class:"rotate-demo"},null,-1)),i=[r];function l(e,m,u,f,h,v){return t(),s("div",p,i)}const I=o(d,[["render",l],["__scopeId","data-v-08a80161"]]);export{I as default};
