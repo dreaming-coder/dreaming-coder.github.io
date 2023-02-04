@@ -1,0 +1,1 @@
+import{_ as o,o as c,c as s,p as t,k as a,b as _}from"../app.f804f2e6.js";const d={name:"BackgroundSize"},n=e=>(t("data-v-bc6d1408"),e=e(),a(),e),p={class:"demo"},r=n(()=>_("div",{class:"contain-demo"},null,-1)),i=[r];function u(e,l,m,f,h,k){return c(),s("div",p,i)}const B=o(d,[["render",u],["__scopeId","data-v-bc6d1408"]]);export{B as default};

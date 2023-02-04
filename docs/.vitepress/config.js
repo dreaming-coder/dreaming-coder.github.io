@@ -195,6 +195,10 @@ function sidebar() {
                         link: '/md/linux/shell'
                     },
                     {
+                        text: 'grep',
+                        link: '/md/linux/grep'
+                    },
+                    {
                         text: 'awk',
                         link: '/md/linux/awk'
                     },
