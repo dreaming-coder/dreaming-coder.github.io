@@ -73,6 +73,15 @@ function nav() {
                     link: '/md/linux/linux-start'
                 },
             ]
+        },
+        {
+            text: '计算机基础',
+            items: [
+                {
+                    text: '计算机网络',
+                    link: '/md/foundation/network/ipv4'
+                }
+            ]
         }
     ];
 }
@@ -160,13 +169,6 @@ function sidebar() {
             },
             {
                 text: '标准库',
-                collapsible: true,
-                items: [
-
-                ]
-            },
-            {
-                text: '数据结构与算法',
                 collapsible: true,
                 items: [
 
@@ -364,6 +366,22 @@ function sidebar() {
                         text: 'Axios',
                         link: 'https://axios-http.com/zh/docs/intro'
                     },
+                ]
+            }
+        ],
+        '/md/foundation/network/': [
+            {
+                text: '计算机网络',
+                collapsible: true,
+                items: [
+                    {
+                        text: 'IPv4',
+                        link: '/md/foundation/network/ipv4'
+                    },
+                    {
+                        text: 'TCP 协议',
+                        link: '/md/foundation/network/tcp'
+                    }
                 ]
             }
         ],
