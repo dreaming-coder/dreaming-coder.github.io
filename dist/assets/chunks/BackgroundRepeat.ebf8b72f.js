@@ -1,0 +1,1 @@
+import{_ as o,o as s,c as t,p as a,l as c,b as _}from"../app.3caa01d5.js";const d={name:"BackgroundRepeat"},p=e=>(a("data-v-764f0927"),e=e(),c(),e),n={class:"demo"},r=p(()=>_("div",{class:"x-repeat-demo"},null,-1)),i=[r];function l(e,u,f,m,h,v){return s(),t("div",n,i)}const k=o(d,[["render",l],["__scopeId","data-v-764f0927"]]);export{k as default};

@@ -1,0 +1,1 @@
+import{_ as o,o as a,c as s,p as t,l as c,b as _}from"../app.3caa01d5.js";const d={name:"ScaleDemo"},n=e=>(t("data-v-ad0a863f"),e=e(),c(),e),p={class:"demo"},l=n(()=>_("div",{id:"test-scale"},null,-1)),r=[l];function i(e,f,m,u,h,v){return a(),s("div",p,r)}const x=o(d,[["render",i],["__scopeId","data-v-ad0a863f"]]);export{x as default};

@@ -381,7 +381,15 @@ function sidebar() {
                     {
                         text: 'TCP 协议',
                         link: '/md/foundation/network/tcp'
-                    }
+                    },
+                    {
+                        text: 'DNS',
+                        link: '/md/foundation/network/dns'
+                    },
+                    {
+                        text: 'HTTPS',
+                        link: '/md/foundation/network/https'
+                    },
                 ]
             }
         ],
