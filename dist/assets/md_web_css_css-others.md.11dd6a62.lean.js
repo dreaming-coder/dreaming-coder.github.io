@@ -18,4 +18,4 @@ import{_ as a,o as n,c as p,a as s,b as l}from"./app.3caa01d5.js";const B=JSON.p
   See the Pen <a href="https://codepen.io/dreaming-coder/pen/jOpwJVb">
   table-layout</a> by 芜情 (<a href="https://codepen.io/dreaming-coder">@dreaming-coder</a>)
   on <a href="https://codepen.io">CodePen</a>.
-`,-1),d=s("",22),g=[t,e,c,r,D,F,y,C,i,A,d];function u(h,b,m,E,v,f){return n(),p("div",null,g)}const _=a(o,[["render",u]]);export{B as __pageData,_ as default};
+`,-1),d=s("",22),g=[t,e,c,r,D,F,y,C,i,A,d];function u(h,b,m,v,E,f){return n(),p("div",null,g)}const _=a(o,[["render",u]]);export{B as __pageData,_ as default};
