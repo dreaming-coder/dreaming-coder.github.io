@@ -2,4 +2,4 @@ import{_ as D,o as y,c as i,e as a,a as s,b as F,r as n}from"./app.3caa01d5.js";
   See the Pen <a href="https://codepen.io/dreaming-coder/pen/ZEjyVBo">
   visualize</a> by 芜情 (<a href="https://codepen.io/dreaming-coder">@dreaming-coder</a>)
   on <a href="https://codepen.io">CodePen</a>.
-`,-1),B=s("",12),_=s("",9),x=s("",10),f=s("",4),E=s("",3),w=s("",5),T=s("",74);function q(S,I,N,P,z,V){const l=n("ice-overflow"),o=n("border-style"),p=n("border-radius"),e=n("background-image"),c=n("background-repeat"),t=n("background-size"),r=n("background-position");return y(),i("div",null,[v,a(l),m,k,B,a(o),_,a(p),x,a(e),f,a(c),E,a(t),w,a(r),T])}const j=D(b,[["render",q]]);export{W as __pageData,j as default};
+`,-1),B=s("",12),_=s("",9),x=s("",10),f=s("",4),E=s("",3),T=s("",5),w=s("",74);function q(S,I,N,P,V,z){const l=n("ice-overflow"),o=n("border-style"),p=n("border-radius"),e=n("background-image"),c=n("background-repeat"),t=n("background-size"),r=n("background-position");return y(),i("div",null,[v,a(l),m,k,B,a(o),_,a(p),x,a(e),f,a(c),E,a(t),T,a(r),w])}const G=D(b,[["render",q]]);export{W as __pageData,G as default};

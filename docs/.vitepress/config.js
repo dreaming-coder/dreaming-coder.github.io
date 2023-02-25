@@ -498,16 +498,6 @@ function sidebar() {
                     },
                 ]
             },
-            // {
-            //     text: 'Oracle 进阶',
-            //     collapsible: true,
-            //     items: [
-            //         {
-            //             text: '',
-            //             link: '/md/db/oracle/'
-            //         },
-            //     ]
-            // }
         ]
     }
 }
